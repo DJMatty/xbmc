@@ -397,7 +397,7 @@ void CPeripheralCecAdapter::Process(void)
     CSingleLock lock(m_critSection);
     bSendStandbyCommands = m_iExitCode != EXITCODE_REBOOT &&
                            m_iExitCode != EXITCODE_RESTARTAPP &&
-                           m_iExitCode != EXITCODE_QUIT &&
+                           (m_iExitCode == EXITCODE_QUIT && m_bGoingToStandby) &&
                            !m_bDeviceRemoved &&
                            (!m_bGoingToStandby || GetSettingBool("standby_tv_on_pc_standby")) &&
                            GetSettingBool("enabled");
