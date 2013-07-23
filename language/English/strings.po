@@ -11420,3 +11420,8 @@ msgstr ""
 msgctxt "#36041"
 msgid "* Item folder"
 msgstr ""
+
+#: xbmc/peripherals/devices/PeripheralCecAdapter.cpp
+msgctxt "#36042"
+msgid "Put devices in standby mode when quitting XBMC"
+msgstr ""
