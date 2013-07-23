@@ -12391,7 +12391,12 @@ msgctxt "#36012"
 msgid "Could not initialise the CEC adapter. Please check your settings."
 msgstr ""
 
-#empty strings from id 36013 to 36014
+#: xbmc/peripherals/devices/PeripheralCecAdapter.cpp
+msgctxt "#36013"
+msgid "Put devices in standby mode when quitting XBMC"
+msgstr ""
+
+#empty string with id 36014
 
 #: system/peripherals.xml
 msgctxt "#36015"
@@ -14173,3 +14178,4 @@ msgstr ""
 msgctxt "#37015"
 msgid "Browse Into"
 msgstr ""
+
